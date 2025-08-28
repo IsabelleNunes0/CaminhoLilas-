@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saúde e Bem-estar</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caminho Lilás</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Saúde e Bem-estar</h1>
-        <button id="emergencyBtn" title="Clique aqui em caso de emergência">🏠</button>
-    </header>
 
-    <main>
-        <h2>Dicas e Recursos</h2>
-        <p>Informações úteis para o seu dia a dia.</p>
-        <a href="apoio.html">Recursos e Contatos</a>
-    </main>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <h1 class="logo">Caminho Lilás</h1>
+    <nav>
+    <ul class="nav">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="violencia.html">Violência Doméstica</a></li>
+        <li><a href="apoio.html">Locais de Apoio</a></li>
+        <li><a href="emergencia.html">Contatos de Emergência</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Estratégias</a></li>
+    </ul>
+</nav>
+  </header>
 
-    <script src="js/script.js"></script>
+  <!-- Hero -->
+  <section class="hero">
+    <img src="img/IMG_7507.jpeg.jpeg" alt="Caminho Lilás" class="hero-img">
+    <div class="hero-text">
+      <h1>Você não está sozinha</h1>
+      <p>O Caminho Lilás é um espaço seguro para acolher, apoiar e informar. Aqui você encontra força e ajuda para seguir em frente.</p>
+      <div class="btn-group">
+        <a href="emergencia.html" class="btn btn-primary">Preciso de ajuda agora</a>
+        <a href="apoio.html" class="btn btn-secondary">Quero saber mais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
+  <div class="info-box">
+    <h2>Sobre o Caminho Lilás</h2>
+    <p>O Caminho Lilás é um espaço de apoio e acolhimento, criado para oferecer informações e orientação às mulheres que enfrentam situações de vulnerabilidade. Nosso objetivo é garantir segurança, apoio emocional e informação de qualidade.</p>
+    <a href="sobre.html" class="btn-link">Saiba mais</a>
+  </div>
+
+  <!-- Nova seção Violência Doméstica -->
+  <div class="info-box">
+    <h2>Violência Doméstica</h2>
+    <p>A violência doméstica é uma violação dos direitos humanos que afeta milhares de mulheres todos os anos. Envolve agressões físicas, psicológicas, sexuais, patrimoniais e morais dentro do ambiente familiar ou de convivência. Reconhecer os sinais e buscar ajuda é fundamental para romper esse ciclo.</p>
+    <a href="violencia.html" class="btn-link">Saiba mais</a>
+  </div>
+
+  <!-- Mini card: Conheça seus Direitos -->
+  <section class="cards-container" aria-label="Atalhos rápidos">
+    <a class="card" href="direitos.html">
+      <h3>Conheça seus Direitos</h3>
+      <p>Entenda leis & Medidas protetivas.</p>
+    </a>
+  </section>
+
+  <!-- Depoimentos -->
+ <section class="testimonials" aria-label="Depoimentos">
+    <div class="testimonial">
+        <p>“Aqui encontrei informações e coragem para buscar ajuda.”</p>
+        <span>— Ana</span>
+    </div>
+    <div class="testimonial">
+        <p>“O site me orientou com clareza e me senti acolhida.”</p>
+        <span>— Beatriz</span>
+    </div>
+    <div class="testimonial">
+        <p>“Saber meus direitos fez toda a diferença na minha decisão.”</p>
+        <span>— Laura</span>
+    </div>
+</section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>&copy; 2025 Caminho Lilás. Todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>
